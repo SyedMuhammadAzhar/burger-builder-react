@@ -4,7 +4,7 @@
     margin: auto;
     height: 250px;
     text-align: center;
-    overflow: hidden;
+    overflow: scroll;
     font-weight: bold;
     font-size: 1.2rem;
 }
