@@ -20,6 +20,10 @@ const buildControls=(props)=>(
              key={cntrl.Label} 
              label={cntrl.Label}
              added={()=>props.ingredientAdded(cntrl.type)}
+             removed={()=>props.ingredientRemoved(cntrl.type)}
+             disabled={props.disabled[cntrl.type]}
+             {...console.log(props.disabled)}
+             
            
             
             />)
