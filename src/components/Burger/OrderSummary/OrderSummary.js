@@ -1,4 +1,5 @@
 import React from 'react'
+import Auxiliary from '../../../hoc/Auxiliary '
 
 const orderSummary =(props)=>{
 
@@ -17,7 +18,7 @@ const orderSummary =(props)=>{
 
     return(
 
-        <div>
+        <Auxiliary>
             <h3>Your Order</h3>
             <p>A delecious burger with the following ingredients:</p>
             <ul>
@@ -26,7 +27,7 @@ const orderSummary =(props)=>{
                 
             </ul>
             
-        </div>
+        </Auxiliary>
 
 
     );

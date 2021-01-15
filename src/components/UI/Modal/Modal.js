@@ -1,10 +1,16 @@
 import React from 'react';
 import classes from './Modal.css'
+import Auxiliary from '../../../hoc/Auxiliary '
+import BackDrop from './BackDrop/BackDrop'
 
 
 const modal =(props)=>{
 
     return(
+
+        <Auxiliary>
+
+        <BackDrop show={props.show} clicked={props.modalClosed}/>
 
         <div className={classes.Modal}
             style={
@@ -18,6 +24,8 @@ const modal =(props)=>{
 
             {props.children}
         </div>
+
+        </Auxiliary>
 
     );
 
