@@ -17,6 +17,7 @@ const modal =(props)=>{
                 {
                     transform:props.show ? 'translateY(0)' : 'transteY(-100vh)',
                     opacity:props.show ? '1':'0',
+                    display: props.show? 'block' :'none'
                     // only opacity also work
                     
                 }
